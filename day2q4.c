@@ -18,5 +18,6 @@ int main(){
     float pi=3.14;    //definin the value of pi
     printf("Area= %.2f \n",pi*radius*radius);    //calculating the area and printing
     printf("Circumference= %.2f",2*pi*radius);    //calculating the perimeter and printing
-
+    return 0;
 }
+
