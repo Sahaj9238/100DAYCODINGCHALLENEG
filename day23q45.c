@@ -7,10 +7,11 @@ int main(){
     scanf("%d",&a);             //inputting the number and storing it in a
 
     for (int i=1;i<=a;i++){     //loop till the range entered
-        numerator+=2;       //in the given series numberator and denominator boht increase by 2
+        numerator+=2;       //in the given series numberator and denominator boht increase by 2 and 4 respectively
         denominator+=4;
         sum+=(double) numerator/denominator;        //calculating the sum
     }
 
     printf("Sum of the series= %f",sum);        //printing the sum of the series
+    return 0;
 }
