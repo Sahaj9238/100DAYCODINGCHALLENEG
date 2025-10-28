@@ -1,12 +1,11 @@
-/*Q68: Delete an element from an aay.
+/*Q69: Find the second largest element in an array.
 Sample Test Cases:
 Input 1:
 5
-1 2 3 4 5
-2
+10 20 30 40 50
 Output 1:
-1 2 4 5
-*/
+40*/
+
 #include <stdio.h>
 int main(){
     int n; // defining variables to store the range of the array
@@ -37,3 +36,4 @@ int main(){
     printf("The second largest element in the array is: %d",second);            //printing the second largest element
     return 0;
 }
+
